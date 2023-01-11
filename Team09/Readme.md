@@ -251,32 +251,17 @@ MA: 110天日內移動平均線
 ### 績效評估
 **可以將重點擺在 CalmarRatio = 年化報酬率 / 最大回落比例**
  (反映投資人面臨資產價格大幅波動時的心理痛苦程度)
-| 績效 | 基本策略 | 
-| ------ |:------ |
-| Profit |  $40.8   |
-| **Return** |  4.08% |
-|**Mdd**    |    2.39% |
-| **Calmar Ratio** | 1.71 |
-| Trade Times |     41  |
-| Win Rate    |  46.78%  |
-| Profit Factor |   1.43  | 
-| Win Loss Ratio |   1.5  |
 
-**Profit**: 累積獲利
-
-**Return**: 累積報酬
-
-**Mdd**: 權益最大回落程度(%)
-
-**Calmar Ratio**: Return / Mdd
-
-**Trade Times**: 總交易次數
-
-**WinRate**: 交易獲利次數 / 總交易次數
-
-**Profit Factor**: 總獲利 / 總損失
-
-**WinLossRatio**: 平均獲利 / 平均損失
+| 績效 | 意義 | 基本策略 |
+| ------ |:--------|:------ |
+| Profit |  累積獲利 | $40.8   | 
+| **Return** |   累積報酬 | 4.08% |
+|**Mdd**    |     權益最大回落程度(%) | 2.39% |
+| **Calmar Ratio** |  Return / Mdd | 1.71 |
+| Trade Times |    總交易次數 | 41  |
+| Win Rate    |  交易獲利次數 / 總交易次數 | 46.78%  |
+| Profit Factor |   總獲利 / 總損失 | 1.43  |
+| Win Loss Ratio |  平均獲利 / 平均損失 | 1.5  |
 
 
 ### 參數最佳化  →  K = 0.05, length(MA) = 110
